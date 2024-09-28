@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+/* ========================================================= */
+nav .continer {
+  background-color: #fff9f4;
+  padding-top: 39px;
+  padding-left: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-right: 137px;
+}
+nav img {
+  width: 291px;
+}
+nav ul {
+  display: flex;
+  gap: 57px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.banner a img {
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+/* .continer .cartone {
+  width: 370px;
+  height: 550px;
+} */
+.card {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(249, 255, 253);
+  font-family: "Roboto", sans-serif;
+}
+
+.card h1 {
+  margin: 50px 145px 0;
+  font-size: 48px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #363958;
+}
+.card .carditem {
+  margin-left: 155px;
+  margin-top: 30px;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .card .container {
+  gap: 30px;
+} */
+
+.card .container .cardone {
+  height: 550px;
+  width: 350px;
+  padding: 22px;
+  border-radius: 20px;
+}
+
+.card .container .cardone img {
+  width: 311px;
+  background-color: #e4e1e1;
+  border-radius: 20px;
+  align-items: center;
+}
+.card .container .cardone h2 {
+  margin-top: 17px;
+  color: #363958;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.card .container .cardone p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 15px;
+  color: #3e3e3e;
+  font-family: "Roboto", sans-serif;
+}
+.card .container .cardone .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .container .cardone .price span {
+  font-size: 36px;
+  font-weight: 800;
+  color: #fa804c;
+  font-family: "Roboto", sans-serif;
+}
+
+.card .container .cardone .price button {
+  color: white;
+  margin-top: 12px;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 16px 30px;
+  border: 0;
+  outline: 0;
+}
+section {
+  max-width: 1440px;
+}
+.addone {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+
+.addone .offer .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 489px;
+  height: 135px;
+  margin-left: 154px;
+  border-radius: 20px;
+  padding: 15px;
+  gap: 37px;
+  box-shadow: 5px 5px 5px rgb(245, 245, 245);
+}
+.addone .offer .details h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.addone .offer .details p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 14px;
+}
+.addone .offer img {
+  height: 82px;
+}
+
+.addone .vector img {
+  width: 599px;
+}
